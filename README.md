@@ -5,5 +5,5 @@
 * Included JavaScript for special page effects
 * Added media queries for moblie screen layouts
 
-```Built with HTML, CSS, and Bootstrap```
+```Built with HTML, CSS, Bootstrap, and JS```
 
