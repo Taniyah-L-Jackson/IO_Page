@@ -163,6 +163,14 @@ function certChange(image) { //passed params
             case 'imageFive': 
                 slider_img.src = filteredCerts[4].image
                 break;
+
+            case 'imageSix': 
+                slider_img.src = filteredCerts[5].image
+                break;
+
+            case 'imageSeven': 
+                slider_img.src = filteredCerts[6].image
+                break;
         } 
     }
 }
@@ -176,7 +184,7 @@ var info = [
         category: 'HTML/CSS',
         view: 'https://github.com/Taniyah-L-Jackson/venedor',
         test: 'https://taniyah-l-jackson.github.io/venedor/',
-        image: "/media/venedor.png",
+        image: "media/venedor.png",
         type: 'project'
     },
 
@@ -186,7 +194,7 @@ var info = [
         category: 'HTML/CSS',
         view: 'https://github.com/Taniyah-L-Jackson/Pizza_Webpage',
         test: 'https://taniyah-l-jackson.github.io/Pizza_Webpage/',
-        image: "/media/pizzaWebpage.png",
+        image: "media/pizzaWebpage.png",
         type: 'project'
     },
 
@@ -196,7 +204,7 @@ var info = [
         category: 'HTML/CSS',
         view: 'https://github.com/Taniyah-L-Jackson/umbrella',
         test: 'https://taniyah-l-jackson.github.io/umbrella/',
-        image: "/media/umbrellaWebpage.png",
+        image: "media/umbrellaWebpage.png",
         type: 'project'
     },
 
@@ -206,7 +214,7 @@ var info = [
         category: 'JavaScript',
         view: 'https://github.com/Taniyah-L-Jackson/PasswordMaker',
         test: 'https://taniyah-l-jackson.github.io/PasswordMaker/',
-        image: "/media/passwordMaker.png",
+        image: "media/passwordMaker.png",
         type: 'project'
     },
 
@@ -216,7 +224,7 @@ var info = [
         category: 'JavaScript',
         view: 'https://github.com/Taniyah-L-Jackson/Adventure_Prompt',
         test: 'https://taniyah-l-jackson.github.io/Adventure_Prompt/',
-        image: "/media/adventureGame.png",
+        image: "media/adventureGame.png",
         type: 'project'
     },
 
@@ -226,7 +234,7 @@ var info = [
         category: 'JavaScript',
         view: 'https://github.com/Taniyah-L-Jackson/Baristas',
         test: 'https://taniyah-l-jackson.github.io/Baristas/',
-        image: "/media/baristaGame.png",
+        image: "media/baristaGame.png",
         type: 'project'
     },
 
@@ -236,7 +244,7 @@ var info = [
         category: 'React',
         view: 'https://github.com/Taniyah-L-Jackson/ocean_todolist',
         test: 'https://taniyah-l-jackson.github.io/ocean_todolist/',
-        image: "/media/ocean-todolist.png",
+        image: "media/ocean-todolist.png",
         type: 'project'
     },
 
@@ -246,7 +254,7 @@ var info = [
         category: 'React',
         view: 'https://github.com/Taniyah-L-Jackson/Shopping_Cart/tree/gh-pages',
         test: 'https://taniyah-l-jackson.github.io/Shopping_Cart/',
-        image: "/media/shoppingCart.png",
+        image: "media/shoppingCart.png",
         type: 'project'
     },
 
@@ -256,7 +264,7 @@ var info = [
         category: 'React',
         view: 'https://github.com/Taniyah-L-Jackson/cra-sweet-sailings',
         test: 'https://taniyah-l-jackson.github.io/cra-sweet-sailings/',
-        image: "/media/SweetSailings.png",
+        image: "media/SweetSailings.png",
         type: 'project'
     },
 
@@ -264,7 +272,7 @@ var info = [
         id: 10,
         title: 'HTML/CSS Certificate',
         view: 'https://www.sololearn.com/Certificate/1014-14588647/pdf/',
-        image: '/media/HTML-CSS_Cert.jpg',
+        image: 'media/HTML-CSS_Cert.jpg',
         type: 'certificate'
     },
 
@@ -272,7 +280,7 @@ var info = [
         id: 11,
         title: 'Responsive Web Design',
         view: 'https://www.freecodecamp.org/certification/lanesha_h/responsive-web-design',
-        image: '/media/responsive_web_design.png',
+        image: 'media/responsive_web_design.png',
         type: 'certificate'
     },  
 
@@ -280,7 +288,7 @@ var info = [
         id: 12,
         title: 'JavaScript Certificate',
         view: 'https://www.sololearn.com/Certificate/1024-14588647/pdf/',
-        image: '/media/JavaScript_Cert.jpg',
+        image: 'media/JavaScript_Cert.jpg',
         type: 'certificate'
     },
 
@@ -288,7 +296,7 @@ var info = [
         id: 13,
         title: 'JavaScript Algorithms',
         view: 'https://www.freecodecamp.org/certification/lanesha_h/javascript-algorithms-and-data-structures',
-        image: '/media/JavaScript_Algorithms_and_Data_Structures.png',
+        image: 'media/JavaScript_Algorithms_and_Data_Structures.png',
         type: 'certificate'
     },  
 
@@ -296,9 +304,27 @@ var info = [
         id: 14,
         title: 'Python Certificate',
         view: 'https://www.sololearn.com/Certificate/1073-14588647/pdf/',
-        image: '/media/Python_Cert.jpg',
+        image: 'media/Python_Cert.jpg',
         type: 'certificate'
-    }   
+    },
+
+    {
+        id: 15,
+        title: 'Ruby Certificate',
+        view: 'https://www.sololearn.com/Certificate/1073-14588647/pdf/',
+        image: 'media/RubyCert.jpg',
+        type: 'certificate'
+    },
+
+    {
+        id: 16,
+        title: 'SQL Certificate',
+        view: 'https://www.sololearn.com/Certificate/1073-14588647/pdf/',
+        image: 'media/SQLCert.jpg',
+        type: 'certificate'
+    },
+    
+    
 ]
 
 projects() //run to show default language in projects

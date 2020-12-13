@@ -13,23 +13,28 @@ button:focus {
 /* Nav Page */
 
 .navBar {
-    padding-top: 10px;
-    height: 80px;
+    height: 90px;
     background: #432818;
     font-family: Courgette;
+    line-height: 3;
     z-index: 2;
+}
+
+.navBar p {
+    font-size: 30px;
+    display: inline;
 }
 
 .navBar ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    line-height: 3;
+    display: inline;
 }
 
 .navBar li {
-    padding: 0px 25px;
-    font-size: 20px;
+    padding: 0px 20px;
+    font-size: 30px;
     display: inline;
 }
 
@@ -37,13 +42,12 @@ button:focus {
     color: white;
 }
 
-.navBar .home {
-    font-size: 25px;
-    line-height: 2.5;
-}
-
 .shift {
     text-align: right;
+}
+
+.shift p {
+    padding-right: 50px;
 }
 
 /* ---------------------------------------------------- */
@@ -73,12 +77,14 @@ button:focus {
     background: none;
     border: none;
     font-size: 55px;
+    text-shadow: 1px 6px 3px black;
 }
 
 .profileBG {
     margin: 0px;
     height: 400px;
     background: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
     animation-name: swoosh;
     animation-duration: 2s;
     animation-delay: 1.4s;
@@ -111,8 +117,9 @@ button:focus {
 
 .intro {
     position: absolute;
-    padding: 6% 0%;
+    padding: 4.5% 5% 0% 0%;
     font-size: 25px;
+    line-height: 2;
     font-family: SSProReg;
     animation-name: fade-in;
     animation-duration: 1.2s;
@@ -134,6 +141,7 @@ button:focus {
     margin-top: 10%;
     padding: 2% 0% 5%;
     background: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
     text-align: center;
 }
 
@@ -188,7 +196,7 @@ button:focus {
 }
 
 .projects a {
-    padding: 18px 36px;
+    padding: 18px 35px;
     background: white;
     border-radius: 10px;
     color: black;
@@ -233,6 +241,7 @@ button:focus {
     margin: 10% 0%;
     padding: 2% 0% 8%;
     background: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 .certificates .title {
@@ -247,7 +256,7 @@ button:focus {
 
 .certificates ul {
     position: absolute;
-    left: 40%;
+    margin-left: 35%;
     bottom: 20px;
     list-style-type: none;
 }
@@ -290,7 +299,8 @@ button:focus {
 
 .footer p {
     padding-left: 15px;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 1.7;
     display: inline;
 }
 
@@ -303,8 +313,12 @@ button:focus {
     text-shadow: 1px 1px 5px black;
 }
 
-.fab {
-    width: 13px;
+.footer .footerIcon {
+    font-size: 20px;
+}
+
+.footer .fa-arrow-circle-up {
+    font-size: 40px;
 }
 
 .footer .push {
@@ -319,11 +333,11 @@ button:focus {
 
 /* media queries */
 
-@media (max-width: 475px) {
+@media (min-width: 375px) and (max-width: 475px) {
 
     /* Nav */
 
-    .home {
+    .navBar .home {
         display: none;
     }
 
@@ -332,7 +346,7 @@ button:focus {
     }
 
     .navBar li{
-        padding: 0px 40px;
+        padding: 0px 25px;
     }
 
     /* Top Main */
@@ -351,8 +365,8 @@ button:focus {
     }
 
     .intro {
-        padding: 10% 6%;
-        font-size: 20px;
+        padding: 10% 8%;
+        font-size: 18px;
         width: 100%;
         text-shadow: 2px -2px 2px black;
     }
@@ -376,7 +390,7 @@ button:focus {
     }
 
     .projects a {
-        padding: 18px 50px;
+        padding: 18px 35px;
     }
 
     .projects ul {
@@ -399,27 +413,35 @@ button:focus {
     }
 
     /* Footer */ 
-    .footer p {
-        font-size: 13px;
-    }
-
     .footer h4 {
         font-size: 20px;
     }
 
-    .footer .fas {
+    .footer li {
+        padding-right: 20px;
+        display: inline;
+    }
+
+    .footer p {
+        display: none;
+    }
+
+    .footer i {
+        font-size: 20px;
+    }
+
+    .topBtn {
         display: none;
     }
 }
 
-@media (min-width: 476px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1000px){
 
     /* Hero */
 
     .heroTitle .title {
         font-size: 50px;
     }
-
 
     /* Top Main */
 
@@ -440,7 +462,7 @@ button:focus {
     }
 
     .projects a {
-        padding: 18px 35px;
+        padding: 18px 32px;
     }
 
     .slotC {
